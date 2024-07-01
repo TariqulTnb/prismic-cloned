@@ -19,7 +19,7 @@ export default function Page({ page }) {
   );
 }
 
-export async function getStaticProps({ params, previewData }) {
+export async function getInitialProps({ params, previewData }) {
   // The `previewData` parameter allows your app to preview
   // drafts from the Page Builder.
   const client = createClient({ previewData });
@@ -37,9 +37,7 @@ export async function getStaticPaths() {
   const pages = await client.getAllByType("page");
 
   return {
-    paths: pages.map((page) => {
-      return asLink(page);
-    }),
-    fallback: false,
+    paths: [], //indicates that no page needs be created at build time
+    fallback: 'blocking' //indicates the type of fallback
   };
 }
