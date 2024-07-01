@@ -37,9 +37,7 @@ export async function getStaticPaths() {
   const pages = await client.getAllByType("page");
 
   return {
-    paths: pages.map((page) => {
-      return asLink(page);
-    }),
-    fallback: false,
+    paths: [], //indicates that no page needs be created at build time
+    fallback: 'blocking' //indicates the type of fallback
   };
 }
