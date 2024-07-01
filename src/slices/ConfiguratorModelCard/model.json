@@ -1,0 +1,58 @@
+{
+  "id": "configurator_model_card",
+  "type": "SharedSlice",
+  "name": "ConfiguratorModelCard",
+  "description": "ConfiguratorModelCard",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title_image": {
+          "type": "Image",
+          "config": {
+            "label": "Title image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "subtitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "van_image": {
+          "type": "Image",
+          "config": { "label": "Van image", "constraint": {}, "thumbnails": [] }
+        },
+        "button_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Button text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "link_key": {
+          "type": "Text",
+          "config": { "label": "Link key", "placeholder": "" }
+        }
+      },
+      "items": {
+        "icon": {
+          "type": "Image",
+          "config": { "label": "Icon", "constraint": {}, "thumbnails": [] }
+        }
+      }
+    }
+  ]
+}

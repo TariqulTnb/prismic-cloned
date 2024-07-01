@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"text",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Eiusmod elit proident ullamco nulla consectetur ipsum laborum excepteur nisi voluptate ullamco anim mollit incididunt duis."
+									}
+								}
+							]
+						}
+					],
+					[
+						"link_name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "decide",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,100 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Nulla tempor quis duis aliqua ut proident laborum labore labore veniam tempor. Qui est ex eiusmod duis magna velit pariatur elit voluptate excepteur id. Anim enim adipisicing adipisicing commodo aute ut."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Ipsum occaecat exercitation nulla nulla veniam excepteur. Laboris fugiat anim magna sunt enim cupidatat laboris sunt nulla mollit dolore Lorem."
+									}
+								}
+							]
+						}
+					],
+					[
+						"image",
+						{
+							"__TYPE__": "ImageContent",
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+								"width": 3199,
+								"height": 3199
+							},
+							"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?rect=0%2C701%2C3199%2C1798&w=548&h=308",
+							"width": 548,
+							"height": 308,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 701
+								},
+								"background": "transparent"
+							},
+							"thumbnails": {}
+						}
+					],
+					[
+						"video_url",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "shade",
+							"type": "Text"
+						}
+					],
+					[
+						"content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Non adipisicing ex ea."
+									}
+								}
+							]
+						}
+					],
+					[
+						"button_text",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Proident elit est do excepteur et ea excepteur amet duis minim occaecat dolore mollit deserunt. Do aliqua deserunt officia ea qui Lorem mollit aute deserunt. Cillum irure aliquip do ut commodo aliqua proident laborum et labore nulla consequat ullamco."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

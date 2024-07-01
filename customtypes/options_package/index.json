@@ -1,0 +1,39 @@
+{
+  "id": "options_package",
+  "label": "Options Package",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": { "config": { "label": "UID" }, "type": "UID" },
+      "package_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Package title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "option_type_id": {
+        "type": "Text",
+        "config": { "label": "Option type id", "placeholder": "" }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": { "choices": { "option_pop_up": { "type": "SharedSlice" } } }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"mode_name": {
+				"__TYPE__": "FieldContent",
+				"value": "arm",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"nodes_to_show",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "lift",
+							"type": "Text"
+						}
+					],
+					[
+						"nodes_to_hide",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "loss",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

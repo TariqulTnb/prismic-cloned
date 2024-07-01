@@ -1,0 +1,35 @@
+{
+  "id": "nodes",
+  "type": "SharedSlice",
+  "name": "Nodes",
+  "description": "Nodes",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "key_name": {
+          "type": "Text",
+          "config": { "label": "key name", "placeholder": "" }
+        },
+        "show_nodes": {
+          "type": "Text",
+          "config": { "label": "show nodes", "placeholder": "" }
+        },
+        "hide_nodes": {
+          "type": "Text",
+          "config": { "label": "hide nodes", "placeholder": "" }
+        },
+        "price": {
+          "type": "Text",
+          "config": { "label": "price", "placeholder": "" }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

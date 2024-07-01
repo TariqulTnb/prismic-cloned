@@ -1,0 +1,16 @@
+{
+  "id": "line_up_links",
+  "type": "SharedSlice",
+  "name": "LineUpLinks",
+  "description": "LineUpLinks",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

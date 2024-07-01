@@ -1,0 +1,71 @@
+{
+  "id": "guide_links",
+  "label": "Guide links",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "online_trial_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Online trial label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "online_trial_link": {
+        "type": "Link",
+        "config": {
+          "label": "Online trial link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "estimate_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Estimate label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "estimate_link": {
+        "type": "Link",
+        "config": {
+          "label": "Estimate link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "schedule_demo_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Schedule demo label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "schedule_demo_link": {
+        "type": "Link",
+        "config": {
+          "label": "Schedule demo link",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "id": "model_card",
+  "type": "SharedSlice",
+  "name": "ModelCard",
+  "description": "ModelCard",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "MainTitle",
+            "placeholder": "ラインアップ",
+            "allowTargetBlank": true,
+            "multi": "heading2,paragraph"
+          }
+        }
+      },
+      "items": {
+        "model_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Model Title",
+            "placeholder": "TAMA",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "model_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Model description",
+            "placeholder": "コンパクトで機能性に優れたキャンピングカー",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "model_image": {
+          "type": "Image",
+          "config": {
+            "label": "Model Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "outline_button_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Outline button text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "primary_button_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Primary button text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "outline_button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Outline button link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "primary_button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Primary button link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      }
+    },
+    {
+      "id": "withResponsiveColumnImages",
+      "name": "with responsive column images",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "MainTitle",
+            "placeholder": "ラインアップ",
+            "allowTargetBlank": true,
+            "multi": "heading2,paragraph"
+          }
+        },
+        "model_select": {
+          "type": "Select",
+          "config": {
+            "label": "Model select",
+            "placeholder": "",
+            "options": ["tama", "kumaQ"]
+          }
+        }
+      },
+      "items": {
+        "model_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Model Title",
+            "placeholder": "TAMA",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "model_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Model description",
+            "placeholder": "コンパクトで機能性に優れたキャンピングカー",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "model_image": {
+          "type": "Image",
+          "config": {
+            "label": "Model Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "outline_button_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Outline button text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "primary_button_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Primary button text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "outline_button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Outline button link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "primary_button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Primary button link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "image_1": {
+          "type": "Image",
+          "config": { "label": "Image 1", "constraint": {}, "thumbnails": [] }
+        },
+        "image_1_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Image 1 text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "image_2": {
+          "type": "Image",
+          "config": { "label": "Image 2", "constraint": {}, "thumbnails": [] }
+        },
+        "image_2_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Image 2 text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "image_3": {
+          "type": "Image",
+          "config": { "label": "Image 3", "constraint": {}, "thumbnails": [] }
+        },
+        "image_3_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Image 3 text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "image_4": {
+          "type": "Image",
+          "config": { "label": "Image 4", "constraint": {}, "thumbnails": [] }
+        },
+        "image_4_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Image 4 text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "model_info_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Model Info title",
+            "placeholder": "TAMA 基本性能",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "passengers_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Passengers label",
+            "placeholder": "乗車定員",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "passengers_info": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Passengers Info",
+            "placeholder": "最大6人",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "can_sleep_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Can sleep label",
+            "placeholder": "就寝定員",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "can_sleep_info": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Can sleep info",
+            "placeholder": "4人",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "car_model_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Car model label",
+            "placeholder": "ベース車両",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "car_model_info": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Car model info",
+            "placeholder": "トヨタ・ハイエース標準ボディ/ 標準ルーフ・ハイルーフ",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "car_size_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Car size label",
+            "placeholder": "車両サイズ",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "car_size_info": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Car size info",
+            "placeholder": "標準ルーフ: 4,695mm x 1,695mm x 1,980mm ハイルーフ: 4,695mm x 1,695mm x 2,240mm",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "engine_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Engine label",
+            "placeholder": "エンジン",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "engine_info": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Engine info",
+            "placeholder": "2,000cc ガソリン / 2,800cc ディーゼル",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "front_seat_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Front seat label",
+            "placeholder": "前方シート",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "front_seat_info": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Front seat info",
+            "placeholder": "ガソリン: 3名乗車可能 / ディーゼル：2名乗車可能",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "car_registration_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Car registration label",
+            "placeholder": "車両登録",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "car_registration_info": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Car registration info",
+            "placeholder": "8ナンバー登録 (キャンピングカー)",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "model_id": {
+          "type": "Text",
+          "config": { "label": "model_id", "placeholder": "" }
+        }
+      }
+    },
+    {
+      "id": "withImageLogoAndIcons",
+      "name": "with image logo and icons",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "main_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Main title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "title_image": {
+          "type": "Image",
+          "config": {
+            "label": "Title Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "model_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Model description",
+            "placeholder": "コンパクトで機能性に優れたキャンピングカー",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "model_image": {
+          "type": "Image",
+          "config": {
+            "label": "Model Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "primary_button_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Primary button text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "icon_1": {
+          "type": "Image",
+          "config": { "label": "Icon 1", "constraint": {}, "thumbnails": [] }
+        },
+        "icon_2": {
+          "type": "Image",
+          "config": { "label": "Icon 2", "constraint": {}, "thumbnails": [] }
+        },
+        "icon_3": {
+          "type": "Image",
+          "config": { "label": "Icon 3", "constraint": {}, "thumbnails": [] }
+        },
+        "icon_4": {
+          "type": "Image",
+          "config": { "label": "Icon 4", "constraint": {}, "thumbnails": [] }
+        },
+        "icon_5": {
+          "type": "Image",
+          "config": { "label": "Icon 5", "constraint": {}, "thumbnails": [] }
+        },
+        "link_key": {
+          "type": "Text",
+          "config": { "label": "link key", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

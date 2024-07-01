@@ -1,0 +1,81 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "line_up_links": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Line up links",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,strong,hyperlink"
+        }
+      },
+      "dream_drive_links": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Dream drive links",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,strong,hyperlink"
+        }
+      },
+      "guide_links": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Guide links",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,strong,hyperlink"
+        }
+      },
+      "company_info": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Company info",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,strong,hyperlink"
+        }
+      },
+      "copyright_text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Copyright Text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "privacy_policy_link": {
+        "type": "Link",
+        "config": {
+          "label": "Privacy policy link",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "select": null
+        }
+      },
+      "privacy_policy_text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Privacy policy text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": { "footer_social_icons": { "type": "SharedSlice" } }
+        }
+      }
+    }
+  }
+}

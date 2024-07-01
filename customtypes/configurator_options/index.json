@@ -1,0 +1,296 @@
+{
+  "id": "configurator_options",
+  "label": "Configurator Options",
+  "format": "page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": { "config": { "label": "UID" }, "type": "UID" },
+      "cabinets": {
+        "type": "Group",
+        "config": {
+          "label": "cabinets",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": { "label": "image", "constraint": {}, "thumbnails": [] }
+            },
+            "name": {
+              "type": "StructuredText",
+              "config": {
+                "label": "name",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "price_in_yen": {
+              "type": "Text",
+              "config": { "label": "price_in_yen", "placeholder": "" }
+            },
+            "key_name": {
+              "type": "Text",
+              "config": { "label": "key name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "floors": {
+        "type": "Group",
+        "config": {
+          "label": "floors",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": { "label": "image", "constraint": {}, "thumbnails": [] }
+            },
+            "price_in_yen": {
+              "type": "Text",
+              "config": { "label": "price_in_yen", "placeholder": "" }
+            },
+            "name": {
+              "type": "StructuredText",
+              "config": {
+                "label": "name",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "key_name": {
+              "type": "Text",
+              "config": { "label": "key_name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "ceilings": {
+        "type": "Group",
+        "config": {
+          "label": "ceilings",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": { "label": "image", "constraint": {}, "thumbnails": [] }
+            },
+            "price_in_yen": {
+              "type": "Text",
+              "config": { "label": "price_in_yen", "placeholder": "" }
+            },
+            "name": {
+              "type": "StructuredText",
+              "config": {
+                "label": "name",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "key_name": {
+              "type": "Text",
+              "config": { "label": "key_name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "seats": {
+        "type": "Group",
+        "config": {
+          "label": "seats",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": { "label": "image", "constraint": {}, "thumbnails": [] }
+            },
+            "price_in_yen": {
+              "type": "Text",
+              "config": { "label": "price_in_yen", "placeholder": "" }
+            },
+            "name": {
+              "type": "StructuredText",
+              "config": {
+                "label": "name",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "key_name": {
+              "type": "Text",
+              "config": { "label": "key_name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "walls": {
+        "type": "Group",
+        "config": {
+          "label": "walls",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": { "label": "image", "constraint": {}, "thumbnails": [] }
+            },
+            "price_in_yen": {
+              "type": "Text",
+              "config": { "label": "price_in_yen", "placeholder": "" }
+            },
+            "name": {
+              "type": "StructuredText",
+              "config": {
+                "label": "name",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "key_name": {
+              "type": "Text",
+              "config": { "label": "key_name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "default_mode_show_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Default mode show nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "default_mode_hide_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Default mode hide nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "driving_mode_show_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Driving mode show nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "driving_mode_hide_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Driving mode hide nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "sleeping_mode_show_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Sleeping mode show nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "sleeping_mode_hide_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Sleeping mode hide nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "doors_open_show_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Doors open show nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "doors_open_hide_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Doors open hide nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "doors_closed_show_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Doors closed show nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "doors_closed_hide_nodes": {
+        "type": "Group",
+        "config": {
+          "label": "Doors closed hide nodes",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": { "label": "name", "placeholder": "" }
+            }
+          }
+        }
+      },
+      "seats_camera_position": {
+        "type": "Text",
+        "config": { "label": "seats_camera_position", "placeholder": "" }
+      },
+      "sleeping_mode_annotations": {
+        "type": "Group",
+        "config": { "label": "Sleeping mode annotations", "fields": {} }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "performance_text": { "type": "SharedSlice" },
+            "base_options": { "type": "SharedSlice" },
+            "preview_mode": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  }
+}

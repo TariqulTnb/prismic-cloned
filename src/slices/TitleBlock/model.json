@@ -1,0 +1,91 @@
+{
+  "id": "title_block",
+  "type": "SharedSlice",
+  "name": "TitleBlock",
+  "description": "TitleBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "heading2,strong,paragraph"
+          }
+        },
+        "anchor_link": {
+          "type": "Text",
+          "config": { "label": "anchor_link", "placeholder": "" }
+        },
+        "has_margin": {
+          "type": "Boolean",
+          "config": {
+            "label": "Has margin",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "withMainTextAndButton",
+      "name": "With main text and button",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2"
+          }
+        },
+        "button_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Button text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "anchor_link": {
+          "type": "Text",
+          "config": { "label": "anchor_link", "placeholder": "" }
+        },
+        "has_margin": {
+          "type": "Boolean",
+          "config": {
+            "label": "Has margin?",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

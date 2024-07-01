@@ -1,0 +1,29 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"show_nodes": {
+				"__TYPE__": "FieldContent",
+				"value": "western",
+				"type": "Text"
+			},
+			"hide_nodes": {
+				"__TYPE__": "FieldContent",
+				"value": "hurried",
+				"type": "Text"
+			},
+			"key_name": {
+				"__TYPE__": "FieldContent",
+				"value": "tea",
+				"type": "Text"
+			},
+			"price": {
+				"__TYPE__": "FieldContent",
+				"value": "bet",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

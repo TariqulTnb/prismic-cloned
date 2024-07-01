@@ -1,0 +1,39 @@
+{
+  "id": "model_carousel",
+  "label": "Model Detail Section",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": { "config": { "label": "UID" }, "type": "UID" },
+      "tab_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Tab title",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph"
+        }
+      },
+      "video_url": {
+        "type": "Text",
+        "config": { "label": "video_url", "placeholder": "" }
+      },
+      "tab_label": {
+        "type": "Text",
+        "config": { "label": "Tab label", "placeholder": "" }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "performance_text": { "type": "SharedSlice" },
+            "carousel": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  }
+}

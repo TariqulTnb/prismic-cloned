@@ -1,0 +1,59 @@
+{
+  "id": "dream_drive_links",
+  "label": "Dream Drive Links",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "about_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "About label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "about_link": {
+        "type": "Link",
+        "config": { "label": "About link", "placeholder": "", "select": null }
+      },
+      "career_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Career label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "career_link": {
+        "type": "Link",
+        "config": { "label": "Career link", "placeholder": "", "select": null }
+      },
+      "guide_label": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Guide label",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "guide_link": {
+        "type": "Link",
+        "config": { "label": "Guide link", "placeholder": "", "select": null }
+      }
+    }
+  }
+}

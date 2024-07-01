@@ -1,0 +1,364 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"main_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Merely"
+						}
+					}
+				]
+			},
+			"model_id": {
+				"__TYPE__": "FieldContent",
+				"value": "frighten",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"tab_content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Irure ipsum sint cupidatat eiusmod anim laboris proident culpa occaecat sit do minim velit."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Labore culpa reprehenderit proident cupidatat sunt dolore esse enim et id sint ullamco aliquip pariatur."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "tiny",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "carModelFeatures",
+		"primary": {
+			"main_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Empty"
+						}
+					}
+				]
+			},
+			"model_id": {
+				"__TYPE__": "FieldContent",
+				"value": "simply",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"tab_title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Qui excepteur ad minim esse consequat incididunt id ex mollit sunt adipisicing aliquip adipisicing."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Incididunt ad deserunt elit est sit nulla quis sunt enim minim exercitation culpa duis occaecat anim. Tempor cillum reprehenderit voluptate consectetur ut eiusmod proident non magna cillum."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "hurt",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "allModelFeatures",
+		"primary": {
+			"main_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Lovely"
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"tab_title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Velit consectetur sunt nulla esse. Velit mollit consectetur elit esse commodo ipsum exercitation officia sit. Fugiat occaecat consequat deserunt sit exercitation occaecat duis duis in."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Duis ipsum pariatur ea ullamco ipsum consequat aliqua velit do ad duis. Est laborum pariatur dolor esse id nostrud amet deserunt esse laborum tempor pariatur tempor irure. Magna labore labore ex qui do ea anim."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "nodded",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "withPopUpCards",
+		"primary": {
+			"option_type_id": {
+				"__TYPE__": "FieldContent",
+				"value": "fresh",
+				"type": "Text"
+			},
+			"main_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Proud"
+						}
+					}
+				]
+			},
+			"anchor_link": {
+				"__TYPE__": "FieldContent",
+				"value": "usually",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"tab_title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Nostrud officia consequat sit ea consectetur ullamco. Mollit ad consequat exercitation et tempor nisi adipisicing eiusmod aliqua do enim ipsum velit excepteur. Eu amet do nisi nostrud in ea ipsum id aliqua reprehenderit sint pariatur."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Est voluptate reprehenderit occaecat anim aliquip in aute qui excepteur minim ea reprehenderit. Aliquip non ex proident est aliqua ullamco enim elit."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "depth",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "usedCarModel",
+		"primary": {
+			"main_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Combine"
+						}
+					}
+				]
+			},
+			"model_id": {
+				"__TYPE__": "FieldContent",
+				"value": "empty",
+				"type": "Text"
+			},
+			"price": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Picture"
+						}
+					}
+				]
+			},
+			"tour_embed_url": {
+				"__TYPE__": "FieldContent",
+				"value": "catch",
+				"type": "Text"
+			},
+			"tour_poster_image": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+					"width": 4016,
+					"height": 6016
+				},
+				"url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+				"width": 4016,
+				"height": 6016,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"tab_title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Magna laboris est tempor nostrud laborum elit nulla non magna cupidatat culpa ullamco est."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Est cupidatat elit sunt adipisicing eu laborum. Id sit veniam deserunt sit. Aliqua dolore ullamco eiusmod laborum ipsum voluptate deserunt ut cupidatat aute cupidatat."
+									}
+								}
+							]
+						}
+					],
+					[
+						"tab_label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "cook",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

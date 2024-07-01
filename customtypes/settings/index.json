@@ -1,0 +1,86 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "siteTitle": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Site Title",
+          "placeholder": "Title of the site",
+          "allowTargetBlank": false,
+          "single": "heading1"
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Logo" }
+      },
+      "logo_white": {
+        "type": "Image",
+        "config": { "label": "Logo White", "constraint": {}, "thumbnails": [] }
+      },
+      "newsletterDescription": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Newsletter Description",
+          "placeholder": "Text above the sign up form",
+          "allowTargetBlank": true,
+          "multi": "heading1,paragraph,strong,em,hyperlink,list-item,o-list-item"
+        }
+      },
+      "newsletterDisclaimer": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Newsletter Disclaimer",
+          "placeholder": "Small text below sign up form",
+          "allowTargetBlank": true,
+          "multi": "paragraph,em,strong,hyperlink"
+        }
+      },
+      "hamburgermenu": {
+        "type": "Image",
+        "config": {
+          "label": "HamburgerMenu",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "line_up_links": {
+        "type": "Link",
+        "config": {
+          "label": "Line up links",
+          "select": "document",
+          "customtypes": ["line_up_links"]
+        }
+      },
+      "dream_drive_links": {
+        "type": "Link",
+        "config": {
+          "label": "Dream drive links",
+          "select": "document",
+          "customtypes": ["dream_drive_links"]
+        }
+      },
+      "company_info": {
+        "type": "Link",
+        "config": {
+          "label": "Company info",
+          "select": "document",
+          "customtypes": ["company_info"]
+        }
+      },
+      "guide_links": {
+        "type": "Link",
+        "config": {
+          "label": "Guide links",
+          "select": "document",
+          "customtypes": ["guide_links"]
+        }
+      }
+    }
+  }
+}

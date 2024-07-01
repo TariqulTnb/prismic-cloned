@@ -1,0 +1,101 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sit aliquip et Lorem dolore magna mollit excepteur reprehenderit nostrud commodo commodo sint occaecat ullamco cupidatat. Reprehenderit cillum Lorem aute dolore incididunt."
+						}
+					}
+				]
+			},
+			"thumbnail": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+					"width": 4000,
+					"height": 4000
+				},
+				"url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+				"width": 4000,
+				"height": 4000,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"mode_name": {
+				"__TYPE__": "FieldContent",
+				"value": "swung",
+				"type": "Text"
+			},
+			"model": {
+				"__TYPE__": "FieldContent",
+				"value": "inch",
+				"type": "Text"
+			},
+			"show_nodes": {
+				"__TYPE__": "FieldContent",
+				"value": "wagon",
+				"type": "Text"
+			},
+			"hide_nodes": {
+				"__TYPE__": "FieldContent",
+				"value": "loud",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"scene_position",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "teeth",
+							"type": "Text"
+						}
+					],
+					[
+						"camera",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "certainly",
+							"type": "Text"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "require",
+							"type": "Text"
+						}
+					],
+					[
+						"main_text",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "example",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

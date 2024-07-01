@@ -1,0 +1,79 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Exercitation labore aliqua sit in aliqua voluptate in aliqua ex dolore enim ullamco. Occaecat in excepteur sit enim excepteur amet fugiat nulla velit dolore ad do incididunt duis sint."
+						}
+					}
+				]
+			},
+			"anchor_link": {
+				"__TYPE__": "FieldContent",
+				"value": "someone",
+				"type": "Text"
+			},
+			"has_margin": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "withMainTextAndButton",
+		"primary": {
+			"button_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Commodo sint anim incididunt cillum aliqua quis nisi labore ea."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev"
+				}
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Adipisicing aute occaecat consectetur consectetur excepteur voluptate ullamco nulla aliqua Lorem fugiat pariatur occaecat cillum. Anim id dolor ea. Irure nostrud ipsum adipisicing."
+						}
+					}
+				]
+			},
+			"anchor_link": {
+				"__TYPE__": "FieldContent",
+				"value": "dug",
+				"type": "Text"
+			},
+			"has_margin": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

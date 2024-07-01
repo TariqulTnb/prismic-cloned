@@ -1,0 +1,59 @@
+{
+  "id": "default_options",
+  "type": "SharedSlice",
+  "name": "DefaultOptions",
+  "description": "DefaultOptions",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "base_key": {
+          "type": "Text",
+          "config": { "label": "base key", "placeholder": "" }
+        },
+        "seats_key": {
+          "type": "Text",
+          "config": { "label": "seats key", "placeholder": "" }
+        },
+        "cabinets_key": {
+          "type": "Text",
+          "config": { "label": "cabinets key", "placeholder": "" }
+        },
+        "floors_key": {
+          "type": "Text",
+          "config": { "label": "floors key", "placeholder": "" }
+        },
+        "ceilings_key": {
+          "type": "Text",
+          "config": { "label": "ceilings key", "placeholder": "" }
+        },
+        "tyres_key": {
+          "type": "Text",
+          "config": { "label": "tyres key", "placeholder": "" }
+        },
+        "exterior_key": {
+          "type": "Text",
+          "config": { "label": "exterior key", "placeholder": "" }
+        },
+        "model": {
+          "type": "Text",
+          "config": { "label": "model", "placeholder": "" }
+        },
+        "roof_key": {
+          "type": "Text",
+          "config": { "label": "roof key", "placeholder": "" }
+        },
+        "walls_key": {
+          "type": "Text",
+          "config": { "label": "walls key", "placeholder": "" }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

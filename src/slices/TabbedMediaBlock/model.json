@@ -1,0 +1,264 @@
+{
+  "id": "tabbed_media_block",
+  "type": "SharedSlice",
+  "name": "TabbedMediaBlock",
+  "description": "TabbedMediaBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "main_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Main title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "model_id": {
+          "type": "Text",
+          "config": { "label": "Model ID", "placeholder": "" }
+        }
+      },
+      "items": {
+        "tab_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "tab_content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2,strong,list-item"
+          }
+        },
+        "tab_label": {
+          "type": "Text",
+          "config": { "label": "Tab label", "placeholder": "" }
+        }
+      }
+    },
+    {
+      "id": "carModelFeatures",
+      "name": "Car Model Features",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "main_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Main title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "model_id": {
+          "type": "Text",
+          "config": { "label": "Model ID", "placeholder": "" }
+        }
+      },
+      "items": {
+        "tab_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "tab_content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2,strong,list-item"
+          }
+        },
+        "tab_label": {
+          "type": "Text",
+          "config": { "label": "Tab label", "placeholder": "" }
+        }
+      }
+    },
+    {
+      "id": "allModelFeatures",
+      "name": "All Model Features",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "main_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Main title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "tab_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "tab_content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2,strong,list-item"
+          }
+        },
+        "tab_label": {
+          "type": "Text",
+          "config": { "label": "Tab label", "placeholder": "" }
+        }
+      }
+    },
+    {
+      "id": "withPopUpCards",
+      "name": "WithPopUpCards",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "option_type_id": {
+          "type": "Text",
+          "config": { "label": "Option type ID", "placeholder": "" }
+        },
+        "main_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Main title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "anchor_link": {
+          "type": "Text",
+          "config": { "label": "anchor_link", "placeholder": "" }
+        }
+      },
+      "items": {
+        "tab_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "tab_content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2,strong,list-item"
+          }
+        },
+        "tab_label": {
+          "type": "Text",
+          "config": { "label": "Tab label", "placeholder": "" }
+        }
+      }
+    },
+    {
+      "id": "usedCarModel",
+      "name": "usedCarModel",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "main_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Main title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "model_id": {
+          "type": "Text",
+          "config": { "label": "Model ID", "placeholder": "" }
+        },
+        "price": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Price",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "tour_embed_url": {
+          "type": "Text",
+          "config": { "label": "Tour embed url", "placeholder": "" }
+        },
+        "tour_poster_image": {
+          "type": "Image",
+          "config": {
+            "label": "Tour poster image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "tab_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "tab_content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tab content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2,strong,list-item"
+          }
+        },
+        "tab_label": {
+          "type": "Text",
+          "config": { "label": "Tab label", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

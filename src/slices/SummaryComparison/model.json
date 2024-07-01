@@ -1,0 +1,311 @@
+{
+  "id": "summary_comparison",
+  "type": "SharedSlice",
+  "name": "SummaryComparison",
+  "description": "SummaryComparison",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title_image": {
+          "type": "Image",
+          "config": {
+            "label": "Title Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "section_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Section title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "submited_message": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Submited message",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "van_image": {
+          "type": "Image",
+          "config": { "label": "Van image", "constraint": {}, "thumbnails": [] }
+        },
+        "model": {
+          "type": "Text",
+          "config": { "label": "Model", "placeholder": "" }
+        },
+        "your_van_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Your van text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "compared_to_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Compared to text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "total_price_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Total price text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "base_price_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Base price text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "total_other_expenses_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Total other expenses text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "interior_section_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Interior section text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "seats_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Seats title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "cabinets_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Cabinets title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "ceilings_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Ceilings title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "floors_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Floors title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "packages_section_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Packages section text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "options_section_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Options section text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "tyres_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tyres title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "walls_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Walls title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "exterior_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Exterior title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "registration_section_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Registration section text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "registration_note_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Registration note text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "tax_section_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tax section text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "wrap_title_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Wrap title text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "estimated_expense_value": {
+          "type": "Text",
+          "config": { "label": "Estimated expense value", "placeholder": "" }
+        },
+        "car_tax_rate": {
+          "type": "StructuredText",
+          "config": {
+            "label": "car tax rate",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "car_weight_tax": {
+          "type": "StructuredText",
+          "config": {
+            "label": "car weight tax",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "car_weight_tax_amount": {
+          "type": "Text",
+          "config": { "label": "car weight tax amount", "placeholder": "" }
+        },
+        "liability_insurance_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "liability insurance text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "including_tax_text": {
+          "type": "Text",
+          "config": { "label": "including tax text", "placeholder": "" }
+        },
+        "liability_insurance_amount": {
+          "type": "Text",
+          "config": { "label": "liability insurance amount", "placeholder": "" }
+        },
+        "car_rate_tax_amounts": {
+          "type": "Text",
+          "config": { "label": "car rate tax amounts", "placeholder": "" }
+        },
+        "options_total_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "options total text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "key_name": {
+          "type": "Text",
+          "config": { "label": "key name", "placeholder": "" }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "price_amount": {
+          "type": "Text",
+          "config": { "label": "price amount", "placeholder": "" }
+        },
+        "price_amounts": {
+          "type": "Text",
+          "config": { "label": "price amounts", "placeholder": "" }
+        },
+        "item_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      }
+    }
+  ]
+}

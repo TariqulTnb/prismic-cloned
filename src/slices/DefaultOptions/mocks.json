@@ -1,0 +1,59 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"base_key": {
+				"__TYPE__": "FieldContent",
+				"value": "needed",
+				"type": "Text"
+			},
+			"seats_key": {
+				"__TYPE__": "FieldContent",
+				"value": "pure",
+				"type": "Text"
+			},
+			"cabinets_key": {
+				"__TYPE__": "FieldContent",
+				"value": "fix",
+				"type": "Text"
+			},
+			"floors_key": {
+				"__TYPE__": "FieldContent",
+				"value": "useful",
+				"type": "Text"
+			},
+			"ceilings_key": {
+				"__TYPE__": "FieldContent",
+				"value": "exist",
+				"type": "Text"
+			},
+			"tyres_key": {
+				"__TYPE__": "FieldContent",
+				"value": "bee",
+				"type": "Text"
+			},
+			"exterior_key": {
+				"__TYPE__": "FieldContent",
+				"value": "attack",
+				"type": "Text"
+			},
+			"model": {
+				"__TYPE__": "FieldContent",
+				"value": "my",
+				"type": "Text"
+			},
+			"roof_key": {
+				"__TYPE__": "FieldContent",
+				"value": "comfortable",
+				"type": "Text"
+			},
+			"walls_key": {
+				"__TYPE__": "FieldContent",
+				"value": "tool",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

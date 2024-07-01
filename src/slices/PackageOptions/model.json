@@ -1,0 +1,132 @@
+{
+  "id": "package_options",
+  "type": "SharedSlice",
+  "name": "PackageOptions",
+  "description": "PackageOptions",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "instruction": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Instruction",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "next_step_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Next step text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "next_step_link": {
+          "type": "Text",
+          "config": { "label": "Next step link", "placeholder": "" }
+        },
+        "camera_look_at": {
+          "type": "Text",
+          "config": { "label": "Camera look at", "placeholder": "" }
+        },
+        "model": {
+          "type": "Text",
+          "config": { "label": "Model", "placeholder": "" }
+        },
+        "type": {
+          "type": "Text",
+          "config": { "label": "Type", "placeholder": "" }
+        },
+        "features": {
+          "type": "Link",
+          "config": {
+            "label": "Features",
+            "select": "document",
+            "customtypes": ["options_package"]
+          }
+        },
+        "show_nodes": {
+          "type": "Text",
+          "config": { "label": "Show nodes", "placeholder": "" }
+        }
+      },
+      "items": {
+        "key_name": {
+          "type": "Text",
+          "config": { "label": "Key name", "placeholder": "" }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "features_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Features title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "add_package_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Add package text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "options_array": {
+          "type": "Text",
+          "config": { "label": "Options array", "placeholder": "" }
+        },
+        "remove_package_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Remove package text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "package_price_value": {
+          "type": "Text",
+          "config": { "label": "Package price value", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "side_navigation",
+  "label": "Side Navigation",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "line_up_label": {
+        "type": "Text",
+        "config": { "label": "Line up label", "placeholder": "" }
+      },
+      "line_up_link": {
+        "type": "Link",
+        "config": { "label": "Line up link", "placeholder": "", "select": null }
+      },
+      "line_up_child_links": {
+        "type": "Group",
+        "config": {
+          "label": "Line up child links",
+          "fields": {
+            "child_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Child label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "child_link": {
+              "type": "Link",
+              "config": {
+                "label": "Child link",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              }
+            },
+            "nested_child_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Nested child label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "nested_child_link": {
+              "type": "Link",
+              "config": {
+                "label": "Nested child link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "schedule_label": {
+        "type": "Text",
+        "config": { "label": "Schedule label", "placeholder": "" }
+      },
+      "schedule_link": {
+        "type": "Link",
+        "config": {
+          "label": "Schedule link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "schedule_child_links": {
+        "type": "Group",
+        "config": {
+          "label": "Schedule child links",
+          "fields": {
+            "child_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Child label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "child_link": {
+              "type": "Link",
+              "config": {
+                "label": "Child link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "guide_label": {
+        "type": "Text",
+        "config": { "label": "Guide label", "placeholder": "" }
+      },
+      "guide_link": {
+        "type": "Link",
+        "config": { "label": "Guide link", "placeholder": "", "select": null }
+      },
+      "guide_child_links": {
+        "type": "Group",
+        "config": {
+          "label": "Guide child links",
+          "fields": {
+            "child_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Child label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "child_link": {
+              "type": "Link",
+              "config": {
+                "label": "Child link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "community_label": {
+        "type": "Text",
+        "config": { "label": "Community label", "placeholder": "" }
+      },
+      "community_link": {
+        "type": "Link",
+        "config": {
+          "label": "Community link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "community_child_links": {
+        "type": "Group",
+        "config": {
+          "label": "Community child links",
+          "fields": {
+            "child_link": {
+              "type": "Link",
+              "config": {
+                "label": "Child link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "child_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Child label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            }
+          }
+        }
+      },
+      "about_label": {
+        "type": "Text",
+        "config": { "label": "About label", "placeholder": "" }
+      },
+      "about_link": {
+        "type": "Link",
+        "config": { "label": "About link", "placeholder": "", "select": null }
+      },
+      "about_child_links": {
+        "type": "Group",
+        "config": {
+          "label": "About child links",
+          "fields": {
+            "child_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Child label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "child_link": {
+              "type": "Link",
+              "config": {
+                "label": "Child link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "contact_label": {
+        "type": "Text",
+        "config": { "label": "Contact label", "placeholder": "" }
+      },
+      "contact_link": {
+        "type": "Link",
+        "config": { "label": "Contact link", "placeholder": "", "select": null }
+      },
+      "contact_child_links": {
+        "type": "Group",
+        "config": {
+          "label": "Contact links",
+          "fields": {
+            "child_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Child label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "child_link": {
+              "type": "Link",
+              "config": {
+                "label": "Child link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "campervans": {
+        "type": "Image",
+        "config": { "label": "campervans", "constraint": {}, "thumbnails": [] }
+      },
+      "tama": {
+        "type": "Image",
+        "config": { "label": "tama", "constraint": {}, "thumbnails": [] }
+      },
+      "kuma": {
+        "type": "Image",
+        "config": { "label": "kuma", "constraint": {}, "thumbnails": [] }
+      },
+      "tablet_top_links": {
+        "type": "Group",
+        "config": {
+          "label": "Tablet top links",
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": { "label": "Link", "placeholder": "", "select": null }
+            },
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "icon": {
+              "type": "Image",
+              "config": { "label": "Icon", "constraint": {}, "thumbnails": [] }
+            }
+          }
+        }
+      },
+      "tablet_links": {
+        "type": "Group",
+        "config": {
+          "label": "Tablet links",
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": { "label": "Link", "placeholder": "", "select": null }
+            },
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            }
+          }
+        }
+      },
+      "tablet_line_up_links": {
+        "type": "Group",
+        "config": {
+          "label": "Tablet line up links",
+          "fields": {
+            "icon": {
+              "type": "Image",
+              "config": { "label": "icon", "constraint": {}, "thumbnails": [] }
+            },
+            "link": {
+              "type": "Link",
+              "config": { "label": "link", "placeholder": "", "select": null }
+            },
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "nested_link": {
+              "type": "Link",
+              "config": {
+                "label": "nested link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "nested_label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "nested label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            }
+          }
+        }
+      },
+      "tablet_arrow_icon": {
+        "type": "Image",
+        "config": {
+          "label": "Tablet arrow icon",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

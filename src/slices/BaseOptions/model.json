@@ -1,0 +1,155 @@
+{
+  "id": "base_options",
+  "type": "SharedSlice",
+  "name": "BaseOptions",
+  "description": "BaseOptions",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "next_step_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Next step text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "next_step_link": {
+          "type": "Text",
+          "config": { "label": "Next step link", "placeholder": "" }
+        },
+        "type": {
+          "type": "Text",
+          "config": { "label": "type", "placeholder": "" }
+        },
+        "emissions_tax_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "emissions tax label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "roof_step_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Roof step text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "roof_step_link": {
+          "type": "Text",
+          "config": { "label": "Roof step link", "placeholder": "" }
+        },
+        "roof_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Roof title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "price_in_yen_value": {
+          "type": "Text",
+          "config": { "label": "Price in yen value", "placeholder": "" }
+        },
+        "passengers_option": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Passengers option",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "seats_option": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Seats option",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "price_in_yen": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Price in yen",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "key_name": {
+          "type": "Text",
+          "config": { "label": "Key name", "placeholder": "" }
+        },
+        "emissions_tax_amount": {
+          "type": "Text",
+          "config": { "label": "emissions tax amount", "placeholder": "" }
+        },
+        "roof_type": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Roof type",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "roof_type_key": {
+          "type": "Text",
+          "config": { "label": "Roof type key", "placeholder": "" }
+        },
+        "roof_type_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Roof type text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "roof_type_image": {
+          "type": "Image",
+          "config": {
+            "label": "Roof type image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      }
+    }
+  ]
+}

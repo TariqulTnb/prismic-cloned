@@ -1,0 +1,227 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Voluptate sunt ea duis laborum minim laboris labore quis anim esse cillum esse qui consectetur."
+						}
+					}
+				]
+			},
+			"next_step_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Et cupidatat cillum officia dolor aliqua consectetur nostrud veniam enim eiusmod id. Sunt do consectetur dolore occaecat nulla enim deserunt eiusmod cupidatat labore Lorem."
+						}
+					}
+				]
+			},
+			"next_step_link": {
+				"__TYPE__": "FieldContent",
+				"value": "income",
+				"type": "Text"
+			},
+			"type": {
+				"__TYPE__": "FieldContent",
+				"value": "invented",
+				"type": "Text"
+			},
+			"emissions_tax_label": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Fugiat commodo ex cupidatat proident esse nostrud proident nisi ullamco sunt cupidatat in nostrud commodo est. Deserunt nisi dolor ex sunt."
+						}
+					}
+				]
+			},
+			"roof_step_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ad deserunt ullamco culpa qui. Esse dolore dolore minim ullamco excepteur nulla fugiat Lorem nisi proident nostrud in laborum laboris veniam. Irure sit ullamco minim consequat excepteur enim adipisicing irure id non."
+						}
+					}
+				]
+			},
+			"roof_step_link": {
+				"__TYPE__": "FieldContent",
+				"value": "settlers",
+				"type": "Text"
+			},
+			"roof_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sunt ea et nisi laborum proident. Irure ad dolore culpa dolor anim laboris anim. Laboris laboris mollit deserunt dolor laborum pariatur do quis commodo."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Non sunt quis aliquip anim adipisicing reprehenderit magna culpa amet aute incididunt ullamco."
+									}
+								}
+							]
+						}
+					],
+					[
+						"price_in_yen",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Irure sint do nisi elit enim tempor minim mollit et ut labore. Voluptate in reprehenderit eiusmod cillum. Proident dolore consectetur nulla culpa."
+									}
+								}
+							]
+						}
+					],
+					[
+						"passengers_option",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Anim voluptate anim aliquip irure pariatur dolor aliquip dolore nulla enim."
+									}
+								}
+							]
+						}
+					],
+					[
+						"seats_option",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Quis fugiat cupidatat minim ex laborum adipisicing anim commodo dolore enim qui ex. Anim aliquip deserunt consectetur ex pariatur adipisicing ut sit. Est fugiat aliquip aute veniam ut veniam in aliquip dolore eu proident duis anim."
+									}
+								}
+							]
+						}
+					],
+					[
+						"price_in_yen_value",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "pain",
+							"type": "Text"
+						}
+					],
+					[
+						"key_name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "stomach",
+							"type": "Text"
+						}
+					],
+					[
+						"emissions_tax_amount",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "lesson",
+							"type": "Text"
+						}
+					],
+					[
+						"roof_type",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Pariatur incididunt aliquip ullamco sunt incididunt."
+									}
+								}
+							]
+						}
+					],
+					[
+						"roof_type_key",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "difficult",
+							"type": "Text"
+						}
+					],
+					[
+						"roof_type_text",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Nostrud tempor irure laborum non cupidatat cupidatat. Eu Lorem culpa ad. Anim aute consectetur dolor consectetur et dolor."
+									}
+								}
+							]
+						}
+					],
+					[
+						"roof_type_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+								"width": 3212,
+								"height": 3880
+							},
+							"url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+							"width": 3212,
+							"height": 3880,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					]
+				]
+			}
+		]
+	}
+]

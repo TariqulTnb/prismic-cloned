@@ -1,0 +1,32 @@
+{
+  "id": "configurator_mode",
+  "type": "SharedSlice",
+  "name": "ConfiguratorMode",
+  "description": "ConfiguratorMode",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "mode_name": {
+          "type": "Text",
+          "config": { "label": "Mode name", "placeholder": "" }
+        }
+      },
+      "items": {
+        "nodes_to_show": {
+          "type": "Text",
+          "config": { "label": "Nodes to show", "placeholder": "" }
+        },
+        "nodes_to_hide": {
+          "type": "Text",
+          "config": { "label": "Nodes to hide", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

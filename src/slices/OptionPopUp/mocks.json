@@ -1,0 +1,109 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"package_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ex ullamco est deserunt do irure ipsum irure cillum nisi in qui nostrud ad. Ullamco deserunt sint exercitation ex qui ut fugiat fugiat voluptate enim proident aliquip Lorem. Et proident ad quis eu occaecat sit anim eu sint veniam eu officia irure ad velit."
+						}
+					}
+				]
+			},
+			"option_type": {
+				"__TYPE__": "FieldContent",
+				"value": "gate",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ea Lorem proident ut est fugiat nostrud elit mollit exercitation sint consectetur proident."
+						}
+					}
+				]
+			},
+			"package_key": {
+				"__TYPE__": "FieldContent",
+				"value": "origin",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+								"width": 4016,
+								"height": 6016
+							},
+							"url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+							"width": 4016,
+							"height": 6016,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Culpa enim dolore nulla aliqua do excepteur do cillum ea esse cupidatat veniam excepteur amet. Magna aliqua amet anim duis exercitation cupidatat eiusmod mollit deserunt magna elit fugiat irure in. Tempor sint dolor aute proident qui magna."
+									}
+								}
+							]
+						}
+					],
+					[
+						"content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Sint sit ex do consectetur laboris. Elit quis enim proident irure do cupidatat fugiat culpa veniam aliquip culpa consequat. Laborum velit in in do dolor ea velit id ex dolor sit."
+									}
+								}
+							]
+						}
+					],
+					[
+						"item_key",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "lying",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

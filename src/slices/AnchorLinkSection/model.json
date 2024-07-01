@@ -1,0 +1,23 @@
+{
+  "id": "anchor_link_section",
+  "type": "SharedSlice",
+  "name": "AnchorLinkSection",
+  "description": "AnchorLinkSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "anchor_link": {
+          "type": "Text",
+          "config": { "label": "Anchor link", "placeholder": "" }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

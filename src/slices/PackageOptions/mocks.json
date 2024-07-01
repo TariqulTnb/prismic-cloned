@@ -1,0 +1,174 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco excepteur consequat adipisicing. Sit sit ut dolor."
+						}
+					}
+				]
+			},
+			"instruction": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Consectetur labore consectetur eu duis sunt cupidatat commodo deserunt. Velit do dolor nostrud adipisicing Lorem pariatur cupidatat sit. Laboris qui et veniam adipisicing adipisicing magna."
+						}
+					}
+				]
+			},
+			"next_step_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Veniam ea deserunt anim nostrud do adipisicing anim do est ullamco. Officia fugiat sunt est consectetur dolor."
+						}
+					}
+				]
+			},
+			"next_step_link": {
+				"__TYPE__": "FieldContent",
+				"value": "human",
+				"type": "Text"
+			},
+			"camera_look_at": {
+				"__TYPE__": "FieldContent",
+				"value": "scared",
+				"type": "Text"
+			},
+			"model": {
+				"__TYPE__": "FieldContent",
+				"value": "whose",
+				"type": "Text"
+			},
+			"type": {
+				"__TYPE__": "FieldContent",
+				"value": "highest",
+				"type": "Text"
+			},
+			"features": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"show_nodes": {
+				"__TYPE__": "FieldContent",
+				"value": "allow",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"key_name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "nearly",
+							"type": "Text"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Adipisicing voluptate ut velit proident quis cillum officia. Labore incididunt aute tempor. Incididunt nostrud ad id."
+									}
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Deserunt nostrud mollit velit ex exercitation sunt ut consequat pariatur consequat tempor proident laborum excepteur elit. Exercitation commodo tempor in cillum anim anim labore sit velit labore."
+									}
+								}
+							]
+						}
+					],
+					[
+						"features_title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Commodo esse aliqua consectetur mollit ad. Adipisicing commodo ut consequat amet Lorem quis non."
+									}
+								}
+							]
+						}
+					],
+					[
+						"add_package_text",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Voluptate ea do consequat voluptate laborum. Consequat nulla nulla ex do fugiat id nostrud. Sint elit nostrud exercitation excepteur."
+									}
+								}
+							]
+						}
+					],
+					[
+						"options_array",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "promised",
+							"type": "Text"
+						}
+					],
+					[
+						"remove_package_text",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Minim consequat ipsum ut cupidatat ex nisi do eiusmod exercitation adipisicing velit laboris nisi. Deserunt ea nostrud et cupidatat reprehenderit non officia."
+									}
+								}
+							]
+						}
+					],
+					[
+						"package_price_value",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "principal",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

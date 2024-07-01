@@ -1,0 +1,22 @@
+{
+  "id": "used_car_listing",
+  "label": "Used Car Listing",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": { "config": { "label": "UID" }, "type": "UID" },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "carousel": { "type": "SharedSlice" },
+            "tabbed_media_block": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  }
+}

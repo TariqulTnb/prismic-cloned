@@ -1,0 +1,59 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Force"
+						}
+					}
+				]
+			},
+			"anchor_link": {
+				"__TYPE__": "FieldContent",
+				"value": "pot",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading2",
+									"content": {
+										"text": "Breathing"
+									}
+								}
+							]
+						}
+					],
+					[
+						"content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Irure consectetur mollit nisi non amet non laboris reprehenderit. Adipisicing fugiat sunt exercitation proident ipsum qui nisi ullamco duis elit deserunt nostrud laborum."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

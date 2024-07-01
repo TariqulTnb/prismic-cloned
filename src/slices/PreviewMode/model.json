@@ -1,0 +1,65 @@
+{
+  "id": "preview_mode",
+  "type": "SharedSlice",
+  "name": "PreviewMode",
+  "description": "PreviewMode",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "thumbnail": {
+          "type": "Image",
+          "config": { "label": "Thumbnail", "constraint": {}, "thumbnails": [] }
+        },
+        "mode_name": {
+          "type": "Text",
+          "config": { "label": "Mode name", "placeholder": "" }
+        },
+        "model": {
+          "type": "Text",
+          "config": { "label": "Model", "placeholder": "" }
+        },
+        "show_nodes": {
+          "type": "Text",
+          "config": { "label": "Show nodes", "placeholder": "" }
+        },
+        "hide_nodes": {
+          "type": "Text",
+          "config": { "label": "Hide nodes", "placeholder": "" }
+        }
+      },
+      "items": {
+        "scene_position": {
+          "type": "Text",
+          "config": { "label": "Scene position", "placeholder": "" }
+        },
+        "camera": {
+          "type": "Text",
+          "config": { "label": "Camera", "placeholder": "" }
+        },
+        "title": {
+          "type": "Text",
+          "config": { "label": "Title", "placeholder": "" }
+        },
+        "main_text": {
+          "type": "Text",
+          "config": { "label": "Main text", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

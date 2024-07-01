@@ -1,0 +1,167 @@
+{
+  "id": "summary_form",
+  "type": "SharedSlice",
+  "name": "SummaryForm",
+  "description": "SummaryForm",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title_image": {
+          "type": "Image",
+          "config": {
+            "label": "Title Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "main_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Main Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "van_image": {
+          "type": "Image",
+          "config": { "label": "Van Image", "constraint": {}, "thumbnails": [] }
+        },
+        "form_instruction": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Form Instruction",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "last_name_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "last_name_label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "last_name_key": {
+          "type": "Text",
+          "config": { "label": "last_name_key", "placeholder": "" }
+        },
+        "first_name_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "first_name_label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "first_name_key": {
+          "type": "Text",
+          "config": { "label": "first_name_key", "placeholder": "" }
+        },
+        "email_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "email_label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "email_key": {
+          "type": "Text",
+          "config": { "label": "Email key", "placeholder": "" }
+        },
+        "phone_key": {
+          "type": "Text",
+          "config": { "label": "phone key", "placeholder": "" }
+        },
+        "phone_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "phone_label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "address_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "address_label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "address_key": {
+          "type": "Text",
+          "config": { "label": "address_key", "placeholder": "" }
+        },
+        "option_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "option_instruction": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option instruction",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "submit_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Submit text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "model": {
+          "type": "Text",
+          "config": { "label": "model", "placeholder": "" }
+        },
+        "required_field_error": {
+          "type": "Text",
+          "config": { "label": "required field error", "placeholder": "" }
+        },
+        "hubspot_form_id": {
+          "type": "Text",
+          "config": { "label": "Hubspot form id", "placeholder": "" }
+        }
+      },
+      "items": {
+        "option_label": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Option label",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "option_value": {
+          "type": "Text",
+          "config": { "label": "Option value", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

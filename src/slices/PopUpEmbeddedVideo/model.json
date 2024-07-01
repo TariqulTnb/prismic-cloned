@@ -1,0 +1,31 @@
+{
+  "id": "pop_up_embedded_video",
+  "type": "SharedSlice",
+  "name": "PopUpEmbeddedVideo",
+  "description": "PopUpEmbeddedVideo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "poster_image": {
+          "type": "Image",
+          "config": {
+            "label": "Poster Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "youtube_embed_key_text": {
+          "type": "Text",
+          "config": { "label": "YouTube embed key text", "placeholder": "" }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
